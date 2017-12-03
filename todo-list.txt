@@ -1,0 +1,12 @@
+1 - Baixar e entender os datasets da ONU e do Banco Mundial.
+
+	Sobre os dados do Banco Mundial : http://wdi.worldbank.org/tables
+
+	
+	
+2 - Levantar questões / análises que podem ser feitas sobre os datasets.
+3 - Decidir se usaremos um banco NOSQL para armazenar os dados e qual (Cassandra, MongoDB, etc).
+4 - Desenvolver código python para realizar as análises necessárias usando Tensorflow (para operações de álgebra linear) e métodos estatísticos.
+5 - Usar Pandas para gerar visualização dos dados (?)
+6 - Escrever o draft e o artigo.
+7 - Fazer os slides e preparar uma apresentação.

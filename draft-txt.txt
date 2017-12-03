@@ -1,0 +1,30 @@
+1 - Introdução
+
+
+
+2 - Dados
+
+O conjunto de dados de indicadores de desenvolvimento do Banco Mundial reúne dados de 217 países referentes aos anos compreendidos entre 1960 e 2016. Dentre tais dados estão os valores anuais de cada país para indicadores de agricultura e desenvolvimento rural, auxílio de desenvolvimento, mudanças climáticas, economia e crescimento, educação, energia e mineiração, meio ambiente, dívida externa, setor financeiro, gênero, saúde, infraestrutura, proteção trabalhista e social, pobreza, setor privado, setor público, ciência e tecnologia, desenvolvimento social, comércio e desenvolvimento urbano.
+Segundo o Banco Mundial, o conjunto de dados é compilado de fontes internacionais reconhecidas oficialmente e contém os dados mais atuais e precisos disponíveis e foram atualizados pela última vez em 15 de Setembro de 2017.
+Os dados estão disponíveis para download em https://data.worldbank.org/data-catalog/world-development-indicators no formato de um arquivo comprimido contendo seis arquivos CSV, dos quais um deles contém os valores dos indicadores de forma que em cada linha as primeiras colunas representam identificação do país e do indicador e as demais colunas representam os valores anuais para tal indicador em tal país.
+
+2.1 - Questões a serem analisadas
+
+Sobre os dados de indicadores providos pelo Banco Mundial, os seguintes questionamentos podem ser respondidos:
+
+- Há correlação entre os indicadores de distribuição de renda e os indicadores de produtividade do trabalho?
+- Como estão distribuidos os indicadores de emissão de carbono por setor de cada país para o ano de 2013? O desvio padrão é grande? Existem outliers?
+- E quanto à redução de emissões de carbono por setor comparado com o ano de 1990? Como se comporta tal distribuição?
+
+
+2.2 - Transformação dos dados
+
+Os dados originais estão dispostos de forma que cada linha representa um indicador e um país e contém uma coluna para o cada ano contendo o valor do indicador do país neste ano. Para trabalhar melhor com os dados dos indicadores, os dados foram transformados de forma que cada linha representa um país e um ano e possui uma coluna para cada indicador usado no projeto contendo o valor do indicador para tal ano e país.
+
+
+3 - Proposta de como responder as questões
+
+3.1 - Implementação da análise
+
+
+4 - Resultados
