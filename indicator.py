@@ -75,8 +75,11 @@ class Indicator:
         for i in self.foot_note:
             foot_notes.append(i.to_dict())
         indicator_as_dict = self.__dict__
-        indicator_as_dict['country_info'] = self.country_info.to_dict()
-        indicator_as_dict['foot_note'] = foot_notes
-        indicator_as_dict['indicator_info'] = self.indicator_info.to_dict()
+        if self.country_info != None:
+            indicator_as_dict['country_info'] = self.country_info.to_dict()
+        if len(foot_notes) > 0:
+            indicator_as_dict['foot_note'] = foot_notes
+        if self.indicator_info != None:
+            indicator_as_dict['indicator_info'] = self.indicator_info.to_dict()
         return indicator_as_dict
         
